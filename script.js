@@ -32,7 +32,7 @@ function showModal(text) {
     const sender = urlParams.get('q');
     const receiver = urlParams.get('q2');
 
-    document.getElementById('modal-text').innerText = `${text}\n\nFrom: ${'Sender'}\nTo: ${'Reciever'}`;
+    document.getElementById('modal-text').innerText = `${text}\n\nFrom: ${'Rishabh'}\nTo: ${'Jahnvi'}`;
     document.getElementById('modal').style.display = 'flex';
 }
 
